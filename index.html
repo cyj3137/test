@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title></title>
+</head>
+<body>
+	<img id="vincent" src="before.jpg">
+	<script type="text/javascript">
+		
+		var state = "off";
+
+		vincent.onclick = function(){
+			if(state == "off"){
+				vincent.src = "after.jpg";
+				state = "on";
+			}else{
+				vincent.src = "before.jpg";
+				state = "off";
+			}
+		}
+	
+	</script>
+</body>
+</html>
